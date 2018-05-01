@@ -12,21 +12,51 @@ using System.Windows.Forms;
  * Created on: 25-04-2018
  * Created for: ICS3U Programming
  * Daily Assignment – Day #28 - Rounding Program
- * This program takes a users entered number and calculates the number to a certain decimal place
+ * This program takes a users entered number and calculates the...
+ * ...number to a certain decimal place.
 */
+
+    // Few bugs in the system I can't get the right number!!!!
+    // Must Revisit!!!!!
 
 namespace RoundingProgramTivaR
 {
     public partial class frmRoundingProgram : Form
     {
+        // Decalare Global variables
+        double userNumber;
+        int roundToNumber;
+
         public frmRoundingProgram()
         {
             InitializeComponent();
         }
 
+        // Procedure: RoundDecimal
+        // Input: userNumber, roundToNumber
+        // Output: void
+        // Description:
+        private void RoundDecimal(ref double userNumber, int roundToNumber)
+        {
+            // Local variables
+            double answer;
+
+            // Do calculations
+            answer = (userNumber * Math.Pow(10, roundToNumber));
+            answer = (Math.Truncate(answer));
+            answer = (answer / roundToNumber);
+
+            MessageBox.Show("The rounded answer is: " + answer, "Rounding Program");
+        }
+
         private void btnRounding_Click(object sender, EventArgs e)
         {
+            // To get the numbers 
+            userNumber = Convert.ToDouble(this.txtUserNumber.Text);
+            roundToNumber = Convert.ToInt32(this.nudDecPlaces.Value);
 
+            // Procedure to round the number
+            RoundDecimal(ref userNumber, roundToNumber);
         }
     }
 }

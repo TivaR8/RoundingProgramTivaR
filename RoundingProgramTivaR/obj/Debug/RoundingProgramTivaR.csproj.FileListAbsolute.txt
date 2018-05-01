@@ -1,0 +1,9 @@
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 4 (Procedures & Functions)\RoundingProgramTivaR\RoundingProgramTivaR\obj\Debug\RoundingProgramTivaR.csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 4 (Procedures & Functions)\RoundingProgramTivaR\RoundingProgramTivaR\obj\Debug\RoundingProgramTivaR.Properties.Resources.resources
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 4 (Procedures & Functions)\RoundingProgramTivaR\RoundingProgramTivaR\obj\Debug\RoundingProgramTivaR.frmRoundingProgram.resources
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 4 (Procedures & Functions)\RoundingProgramTivaR\RoundingProgramTivaR\obj\Debug\RoundingProgramTivaR.csproj.GenerateResource.Cache
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 4 (Procedures & Functions)\RoundingProgramTivaR\RoundingProgramTivaR\bin\Debug\RoundingProgramTivaR.exe.config
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 4 (Procedures & Functions)\RoundingProgramTivaR\RoundingProgramTivaR\bin\Debug\RoundingProgramTivaR.exe
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 4 (Procedures & Functions)\RoundingProgramTivaR\RoundingProgramTivaR\bin\Debug\RoundingProgramTivaR.pdb
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 4 (Procedures & Functions)\RoundingProgramTivaR\RoundingProgramTivaR\obj\Debug\RoundingProgramTivaR.exe
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 4 (Procedures & Functions)\RoundingProgramTivaR\RoundingProgramTivaR\obj\Debug\RoundingProgramTivaR.pdb
