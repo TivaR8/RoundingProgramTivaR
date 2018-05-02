@@ -44,7 +44,7 @@ namespace RoundingProgramTivaR
             // Do calculations
             answer = (userNumber * Math.Pow(10, roundToNumber));
             answer = (Math.Truncate(answer));
-            answer = (answer / roundToNumber);
+            answer = (answer / 0.1);
 
             MessageBox.Show("The rounded answer is: " + answer, "Rounding Program");
         }
