@@ -16,9 +16,6 @@ using System.Windows.Forms;
  * ...number to a certain decimal place.
 */
 
-    // Few bugs in the system I can't get the right number!!!!
-    // Must Revisit!!!!!
-
 namespace RoundingProgramTivaR
 {
     public partial class frmRoundingProgram : Form
@@ -39,12 +36,13 @@ namespace RoundingProgramTivaR
         private void RoundDecimal(ref double userNumber, int roundToNumber)
         {
             // Local variables
-            double answer;
+            double answer, finalRounding;
 
             // Do calculations
-            answer = (userNumber * Math.Pow(10, roundToNumber));
+            finalRounding = (Math.Pow(10, roundToNumber));
+            answer = (userNumber * finalRounding + 0.5);
             answer = (Math.Truncate(answer));
-            answer = (answer / 0.1);
+            answer = (answer/ finalRounding);
 
             MessageBox.Show("The rounded answer is: " + answer, "Rounding Program");
         }
