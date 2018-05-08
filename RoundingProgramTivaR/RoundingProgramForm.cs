@@ -20,9 +20,7 @@ namespace RoundingProgramTivaR
 {
     public partial class frmRoundingProgram : Form
     {
-        // Decalare Global variables
-        double userNumber;
-        int roundToNumber;
+        
 
         public frmRoundingProgram()
         {
@@ -33,28 +31,43 @@ namespace RoundingProgramTivaR
         // Input: userNumber, roundToNumber
         // Output: void
         // Description:
-        private void RoundDecimal(ref double userNumber, int roundToNumber)
+        private void RoundDecimal(ref double tmpuserNumber, int tmproundToNumber)
         {
             // Local variables
-            double answer, finalRounding;
+            double finalRounding;
 
             // Do calculations
+            /*
             finalRounding = (Math.Pow(10, roundToNumber));
             answer = (userNumber * finalRounding + 0.5);
             answer = (Math.Truncate(answer));
             answer = (answer/ finalRounding);
+            */
 
-            MessageBox.Show("The rounded answer is: " + answer, "Rounding Program");
+            // Do calculations
+            finalRounding = (Math.Pow(10, tmproundToNumber));
+            tmpuserNumber = (tmpuserNumber * finalRounding + 0.5);
+            tmpuserNumber = (Math.Truncate(tmpuserNumber));
+            tmpuserNumber = (tmpuserNumber / finalRounding);
+
+            
         }
 
         private void btnRounding_Click(object sender, EventArgs e)
         {
+            // Declare local variables
+            double userNumber;
+            int roundToNumber;
+
             // To get the numbers 
             userNumber = Convert.ToDouble(this.txtUserNumber.Text);
             roundToNumber = Convert.ToInt32(this.nudDecPlaces.Value);
 
             // Procedure to round the number
             RoundDecimal(ref userNumber, roundToNumber);
+
+            MessageBox.Show("The rounded answer is: " + userNumber, "Rounding Program");
+
         }
     }
 }
